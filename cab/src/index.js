@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Navbar from './components/Navbar.js';
+import Book from './components/Book.js';
 import './index.css';
 
 import reportWebVitals from './reportWebVitals';
@@ -7,7 +9,8 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-   <h1>cab booking</h1>
+   <Navbar/>
+   <Book/>
   </React.StrictMode>
 );
 
